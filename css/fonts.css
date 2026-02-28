@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../assets/fonts/sf-pro-display/SFPRODISPLAYREGULAR.OTF");
+}
+
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("../assets/fonts/sf-pro-text/SF-Pro-Text-Regular.otf");
+}
+
+@font-face {
+  font-family: "SF Mono";
+  src: url("../assets/fonts/sf-mono/SFMonoRegular.otf");
+}
+
+@font-face {
+  font-family: "SF Compact";
+  src: url("../assets/fonts/sf-compact-text/sf-compact-text-heavy-58646f645b774.otf");
+}

@@ -1,0 +1,16 @@
+:root {
+  /* Brand Colors */
+  --color-surface-primary: #f5f5f7;
+  --color-surface-secondary: #e6e6e6;
+  --color-text-primary: #424245;
+  --color-accent-primary: #0066cc;
+  --color-accent-secondary: #f56300;
+
+  /* Typography */
+  --font-heading:
+    "SF Pro Display", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: "SF Pro Text", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-code: "SF Mono", Menlo, Monaco, Consolas, monospace;
+  --font-ui-compact:
+    "SF Compact", -apple-system, BlinkMacSystemFont, sans-serif;
+}

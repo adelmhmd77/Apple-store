@@ -1,0 +1,433 @@
+/* ========================================
+   Ultra Comprehensive Modern CSS Reset
+   ======================================== */
+
+/* 1. Box sizing and margin/padding reset for everything */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 2. Document level defaults */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  text-size-adjust: 100%; /* Prevent font scaling in landscape */
+}
+
+/* 3. Body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family:
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+  -webkit-tap-highlight-color: transparent; /* Remove tap highlight on mobile */
+}
+
+/* 4. Typography resets */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word; /* Prevent long words from breaking layout */
+}
+
+/* 5. Lists */
+ul,
+ol,
+menu {
+  list-style: none;
+}
+
+/* 6. Links */
+a {
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent; /* Remove gray background on active links in IE 10 */
+}
+
+/* 7. Media elements */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* 8. Form elements */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
+  border-radius: 0; /* Remove default border radius */
+  color: inherit; /* Inherit text color */
+}
+
+/* 9. Buttons */
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  -webkit-appearance: none; /* Remove default button styling on iOS */
+  appearance: none;
+}
+
+/* 10. Tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%; /* Make tables full width by default */
+}
+
+caption {
+  text-align: left;
+}
+
+/* 11. Quotes */
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: "";
+  content: none;
+}
+
+/* 12. Horizontal rule */
+hr {
+  border: none;
+  border-top: 1px solid;
+  height: 0;
+  overflow: visible; /* Show overflow in Edge and IE */
+}
+
+/* 13. Abbreviations */
+abbr[title] {
+  text-decoration: underline dotted;
+  cursor: help;
+}
+
+/* 14. Code and pre */
+code,
+pre,
+kbd,
+samp {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre-wrap; /* Wrap long lines in pre */
+}
+
+/* 15. Fieldset and legend */
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+  display: block;
+}
+
+/* 16. Iframe */
+iframe {
+  border: none;
+  display: block;
+  max-width: 100%;
+}
+
+/* 17. Details and summary */
+details {
+  display: block;
+}
+
+summary {
+  display: list-item; /* Maintain list item semantics */
+  cursor: pointer;
+}
+
+/* 18. Meter and progress */
+meter,
+progress {
+  vertical-align: baseline;
+}
+
+/* 19. Remove animations for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* 20. Remove default fieldset styles in all browsers */
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+}
+
+/* 21. Remove default search input styling */
+input[type="search"] {
+  -webkit-appearance: none; /* Remove search input styling in Safari */
+  appearance: none;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+}
+
+/* 22. Remove default number input spinners */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+/* 23. Remove default date input styling */
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="month"] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* 24. Remove default color input styling */
+input[type="color"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  border: none;
+}
+
+/* 25. Remove default file input styling */
+input[type="file"] {
+  display: block;
+  width: 100%;
+  font: inherit;
+}
+
+/* 26. Remove default range input styling */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  background: transparent;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+input[type="range"]::-moz-range-thumb {
+  border: none;
+}
+
+/* 27. Remove default progress bar styling */
+progress {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* 28. Remove default meter styling */
+meter {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* 29. Address inconsistent styling of b and strong */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/* 30. Address variable font sizes in all browsers */
+small {
+  font-size: 80%;
+}
+
+/* 31. Prevent sub and sup from affecting line-height */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* 32. Remove text indentation from list items in Safari */
+ul,
+ol {
+  -webkit-padding-start: 0;
+  padding-inline-start: 0;
+}
+
+/* 33. Remove default dialog styling */
+dialog {
+  display: block;
+  border: none;
+  padding: 0;
+  background: transparent;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  overflow: auto;
+  color: inherit;
+}
+
+/* 34. Remove default menu styling */
+menu {
+  list-style: none;
+  padding: 0;
+}
+
+/* 35. Remove default figure margin */
+figure {
+  margin: 0;
+}
+
+/* 36. Remove default blockquote margin */
+blockquote {
+  margin: 0;
+}
+
+/* 37. Ensure hidden elements are truly hidden */
+[hidden] {
+  display: none !important;
+}
+
+/* 38. Remove default outline on focused elements (add your own focus styles) */
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* 39. Set default focus styles for keyboard navigation */
+:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+/* 40. Ensure disabled elements have proper cursor */
+[disabled] {
+  cursor: not-allowed;
+  opacity: 0.7; /* Visual indication of disabled state */
+}
+
+/* 41. Remove default marker on details summary */
+details > summary {
+  list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* 42. Remove default marker on list items */
+li {
+  list-style: none;
+}
+
+/* 43. Reset address styles */
+address {
+  font-style: normal;
+}
+
+/* 44. Reset cite styles */
+cite {
+  font-style: normal;
+}
+
+/* 45. Reset dfn styles */
+dfn {
+  font-style: normal;
+}
+
+/* 46. Reset mark styles */
+mark {
+  background-color: transparent;
+  color: inherit;
+}
+
+/* 47. Reset ins styles */
+ins {
+  text-decoration: none;
+}
+
+/* 48. Reset del styles */
+del {
+  text-decoration: line-through;
+}
+
+/* 49. Reset s styles */
+s {
+  text-decoration: line-through;
+}
+
+/* 50. Reset u styles */
+u {
+  text-decoration: underline;
+}

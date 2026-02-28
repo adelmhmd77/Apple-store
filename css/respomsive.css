@@ -1,0 +1,353 @@
+/* ========================================
+   Empty Media Queries for All Screen Sizes
+   ======================================== */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}
+
+/* Extra extra large devices (larger desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+  
+}
+
+/* Ultra wide screens (4K and above, 2000px and up) */
+@media only screen and (min-width: 2000px) {
+  
+}
+
+/* ========================================
+   Alternative with both min and max widths
+   ======================================== */
+
+/* Extra small (up to 575px) */
+@media (max-width: 575px) {
+  
+}
+
+/* Small (576px to 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  
+}
+
+/* Medium (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/* Large (992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/* Extra large (1200px to 1399px) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  
+}
+
+/* Extra extra large (1400px and up) */
+@media (min-width: 1400px) {
+  
+}
+
+/* ========================================
+   Orientation-based queries
+   ======================================== */
+
+/* Portrait orientation */
+@media (orientation: portrait) {
+  
+}
+
+/* Landscape orientation */
+@media (orientation: landscape) {
+  
+}
+
+/* ========================================
+   Device-specific queries
+   ======================================== */
+
+/* Mobile devices (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+  
+}
+
+/* Tablets (481px to 768px) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  
+}
+
+/* Small laptops (769px to 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  
+}
+
+/* Desktops (1025px to 1200px) */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  
+}
+
+/* Large desktops (1201px to 1600px) */
+@media only screen and (min-width: 1201px) and (max-width: 1600px) {
+  
+}
+
+/* ========================================
+   High-resolution/Retina displays
+   ======================================== */
+
+@media only screen and (min-resolution: 192dpi) and (min-width: 768px),
+       only screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  
+}
+
+/* ========================================
+   Print media query
+   ======================================== */
+
+@media print {
+  
+}
+
+/* ========================================
+   Dark mode preference
+   ======================================== */
+
+@media (prefers-color-scheme: dark) {
+  
+}
+
+/* Light mode preference */
+@media (prefers-color-scheme: light) {
+  
+}
+
+/* ========================================
+   Reduced motion preference
+   ======================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  
+}
+
+/* ========================================
+   High contrast mode
+   ======================================== */
+
+@media (prefers-contrast: high) {
+  
+}
+
+/* ========================================
+   JavaScript availability
+   ======================================== */
+
+/* Use with: <html class="js"> or <html class="no-js"> */
+
+/* When JavaScript is enabled */
+.js .your-element {
+  
+}
+
+/* When JavaScript is disabled */
+.no-js .your-element {
+  
+}
+
+/* ========================================
+   Hover capability
+   ======================================== */
+
+/* Devices that support hover (mouse/trackpad) */
+@media (hover: hover) {
+  
+}
+
+/* Devices that don't support hover (touch screens) */
+@media (hover: none) {
+  
+}
+
+/* ========================================
+   Pointer accuracy
+   ======================================== */
+
+/* Fine pointer (mouse, stylus) */
+@media (pointer: fine) {
+  
+}
+
+/* Coarse pointer (finger on touch screen) */
+@media (pointer: coarse) {
+  
+}
+
+/* ========================================
+   Container queries (modern browsers)
+   ======================================== */
+
+/* First, define a container */
+/* .container {
+  container-type: inline-size;
+} */
+
+/* Then use container queries */
+/* @container (min-width: 400px) {
+  
+} */
+
+/* @container (max-width: 600px) {
+  
+} */
+
+/* ========================================
+   Common framework breakpoints (Bootstrap 5)
+   ======================================== */
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  
+}
+
+/* ========================================
+   Common framework breakpoints (Tailwind CSS)
+   ======================================== */
+
+/* sm (640px) */
+@media (min-width: 640px) {
+  
+}
+
+/* md (768px) */
+@media (min-width: 768px) {
+  
+}
+
+/* lg (1024px) */
+@media (min-width: 1024px) {
+  
+}
+
+/* xl (1280px) */
+@media (min-width: 1280px) {
+  
+}
+
+/* 2xl (1536px) */
+@media (min-width: 1536px) {
+  
+}
+
+/* ========================================
+   Aspect ratio queries
+   ======================================== */
+
+/* Square aspect ratio */
+@media (aspect-ratio: 1/1) {
+  
+}
+
+/* Portrait aspect ratio (taller than wide) */
+@media (aspect-ratio: 3/4) {
+  
+}
+
+/* Landscape aspect ratio (wider than tall) */
+@media (aspect-ratio: 16/9) {
+  
+}
+
+/* Ultra-wide aspect ratio */
+@media (aspect-ratio: 21/9) {
+  
+}
+
+/* Minimum aspect ratio */
+@media (min-aspect-ratio: 16/9) {
+  
+}
+
+/* Maximum aspect ratio */
+@media (max-aspect-ratio: 4/3) {
+  
+}
+
+/* ========================================
+   Height-based queries
+   ======================================== */
+
+/* Short viewports */
+@media (max-height: 600px) {
+  
+}
+
+/* Tall viewports */
+@media (min-height: 1000px) {
+  
+}
+
+/* ========================================
+   Combination queries
+   ======================================== */
+
+/* Example: Tablets in portrait mode */
+@media (min-width: 768px) and (max-width: 991px) and (orientation: portrait) {
+  
+}
+
+/* Example: Large phones in landscape */
+@media (min-width: 576px) and (max-width: 767px) and (orientation: landscape) {
+  
+}
+
+/* Example: Dark mode on desktop */
+@media (prefers-color-scheme: dark) and (min-width: 992px) {
+  
+}
